@@ -1,0 +1,115 @@
+main{
+    color: #fff;
+
+    display: flex;
+    flex-direction: column;
+    
+}
+
+div{
+    width: 100%;
+    height: 100%;
+}
+
+div article h2{
+    margin: 20px;
+    font-size: 20pt;
+    padding: 10px;
+}
+
+
+article{
+    width: 600px;
+    height: 150px;
+
+    margin: 3em 0px 3em 20px; 
+    border-radius: 20px;
+    background-color: #6560D9;
+    
+}
+
+hr{
+    margin-top: 2em ;
+    border: 1px solid #6560D9; 
+    border-radius: 40%;
+    
+}
+
+.secaoTecnologias{
+    color:#6560D9;
+
+    font-size: xx-large;
+    margin: 0em 0px 5em 20px;
+}
+
+
+/*Contatos*/
+
+
+.headerContatos{
+    font-size: 17pt;
+}
+
+
+.secaoContatos{
+    color:#6560D9;
+
+    font-size: x-large;
+    margin: 5em 0px 50px 20px;
+}
+
+.secaoContatos h2{
+    margin-bottom: 20px;
+
+}
+.secaoContatos p{
+    margin-left: 20px;
+}
+
+
+
+
+/*Projetos*/
+
+
+.headerProjetos{
+    cursor: pointer;
+    font-size: 17pt;
+    transition: ease-in-out 0.2s;
+}
+
+.headerProjetos:hover{
+    color: #fff;
+}
+
+.secaoProjetos{
+    color:#6560D9;
+
+    font-size: x-large;
+    margin: 5em 0px 25em 20px;
+}
+
+
+/**/
+
+figure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+main figure img{
+    width: 400px;
+    height: 400px;
+    border-radius: 75px;
+
+    position: absolute;
+    margin-left: 45em;
+    margin-bottom: 60px;
+    margin-top: 3em;
+    border: 2px #6560D9 ;
+}
+

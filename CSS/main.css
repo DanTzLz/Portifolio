@@ -4,62 +4,107 @@ main{
     display: flex;
     flex-direction: column;
     
+    margin: 0 0 0 20px;
 }
 
 div{
     width: 100%;
-    height: 100%;
+
 }
 
-div article h2{
-    margin: 20px;
-    font-size: 20pt;
-    padding: 10px;
-}
+
+/*=--=-=-=-=-=-=-=-=-=-=-=-= CONTEUDO PRINCIPAL =--=-=-=-=-=-=-=-=-=-=-=-=*/
 
 
 article{
-    width: 600px;
-    height: 150px;
+    width: 640px;
+    height: 180px;
 
-    margin: 3em 0px 3em 20px; 
+    margin: 2.5em 0px 3em 20px; 
     border-radius: 20px;
     background-color: #6560D9;
     
 }
 
-hr{
-    margin-top: 2em ;
-    border: 1px solid #6560D9; 
-    border-radius: 40%;
-    
+article h2{
+    margin: 18px;
+    font-size: 22pt;
+
 }
+
+
+.conteudo{
+    display: flex;
+}
+
+
+/*=--=-=-=-=-=-=-=-=-=-=-=-= TECNOLOGIAS =--=-=-=-=-=-=-=-=-=-=-=-=*/
+
 
 .secaoTecnologias{
     color:#6560D9;
-
+    
     font-size: xx-large;
-    margin: 0em 0px 5em 20px;
+    margin: 0em 0px 1em 20px;
+}
+
+.container-icons {
+    display: flex;
+}
+
+.box-tecnologias{
+    flex-direction: column;
 }
 
 
-/*Contatos*/
+.box-tecnologias{
+    width: 5em;
+    height: 5em;
+    margin: 0.5em 0.7em;
+    
+    
+    border-radius: 20px;
+    background-color: #6560D9;
 
-
-.headerContatos{
-    font-size: 17pt;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: ease-in-out .3s;
 }
 
+
+.box-tecnologias:hover{
+    transform: scale(1.03);
+    color: #fff;
+
+}
+#icones-tecnologias{
+    color: #fff;
+    font-size: 4em;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+
+
+
+/*=--=-=-=-=-=-=-=-=-=-=-=-= CONTATOS =--=-=-=-=-=-=-=-=-=-=-=-=*/
 
 .secaoContatos{
     color:#6560D9;
 
     font-size: x-large;
-    margin: 5em 0px 50px 20px;
+    margin: 2em 0px 50px 20px;
 }
 
 .secaoContatos h2{
-    margin-bottom: 20px;
+    margin-bottom: 0.5em;
 
 }
 .secaoContatos p{
@@ -67,9 +112,7 @@ hr{
 }
 
 
-
-
-/*Projetos*/
+/*=--=-=-=-=-=-=-=-=-=-=-=-= PROJETOS =--=-=-=-=-=-=-=-=-=-=-=-=*/
 
 
 .headerProjetos{
@@ -85,31 +128,77 @@ hr{
 .secaoProjetos{
     color:#6560D9;
 
+
     font-size: x-large;
-    margin: 5em 0px 25em 20px;
+    margin: 0em 0px 0em 20px;
 }
 
-
-/**/
-
-figure{
+.container-projetos{
     display: flex;
-    flex-direction: column;
+    gap: 1.5em;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+.box-projetos{
+    height: 520px;
+    width: 400px;
+    background-color: #6560D9;
+
+    border-radius: 30px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*=--=-=-=-=-=-=-=-=-=-=-=-= FIGURE =--=-=-=-=-=-=-=-=-=-=-=-=*/
+
+
+figure figcaption{
+    display: flex;
     align-items: center;
     justify-content: center;
 
-    
+    margin-right: 5em;
 }
 
-main figure img{
-    width: 400px;
-    height: 400px;
-    border-radius: 75px;
+figcaption i{
+    font-size: 1.5em;
 
-    position: absolute;
-    margin-left: 45em;
-    margin-bottom: 60px;
-    margin-top: 3em;
-    border: 2px #6560D9 ;
+    transition: ease-in-out .15s;
+}
+
+
+
+.imagem{
+    display: flex;
+}
+
+img{
+    width: 425px;
+    height: 425px;
+
+    margin-top: 9em;
+    margin-right: 5em;
+
+    border-radius: 50px;
+    right: 100em;
+
+    transition: ease-in-out .3s;
+}
+
+
+img:hover{
+    box-shadow: 0 0 8px;
+    color: #6560D9;
+}
+
+
+.main-text{
+    margin-top: 6em;
+    height: 17em;
+
+    display: flex;
 }
 

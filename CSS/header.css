@@ -7,47 +7,37 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-
+    position: fixed;
 }
 
 h1{
-    margin: 0 0 0 20px;
+    margin: 0px 0 0px 20px;
     color: #6560D9;
 }
 
 nav{
     margin: 0px 15px 0 0;
-    
 }
 
 a {
     color: #6560D9;
     margin: 20px 20px 0px 0px;
     font-size: x-large;
-
-    text-decoration: none;
+    
 }
 
-a.headerContatos{
+.headerContatos{
+    font-size: 17pt;
+}
+
+.header-nav a{
     cursor: pointer;
     transition: ease-in-out 0.2s;
 }
-a.headerContatos:hover{
+a:hover{
     color: #fff;
 
 }
 
-i:hover{
-    color: #ffffff;
-    border-radius: 50px;
-}
 
-i{
-    transition: ease-in-out 0.2s;
-    cursor: pointer;
-}
-i:hover{
-    transform: scale(1.2);
-    
-}
 

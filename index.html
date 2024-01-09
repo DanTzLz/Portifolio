@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./CSS/reset.css">
     <link rel="stylesheet" href="./CSS/main.css">
     <link rel="stylesheet" href="./CSS/footer.css">
+    <link rel="stylesheet" href="./CSS/responsive.css">
 
     <!--FONTS-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -23,58 +24,73 @@
     <title>Portifolio - Daniel Luiz</title>
 </head>
 <body>
+    
     <header>
         <h1>Daniel Luiz Marques {DEV}</h1>
         <nav class="header-nav">
-            <a href="https://github.com/DanTzLz" target="_blank">
-                <i class="fa-brands fa-github"></i>
-            </a>
-            <a href="https://www.instagram.com/dantz.z/?hl=pt-br" target="_blank">
-                <i class="fa-brands fa-instagram"></i>
-            </a>
-            <a href="https://www.linkedin.com/in/daniel-luiz-marques-4330591b5/"  target="_blank target="_blank>
-                <i class="fa-brands fa-linkedin"></i>
-            </a>
 
             <!--Ao clicar em Contatos, chama a função rolarPara, assim a pagina indo para o destino-->
             <a 
-            onclick="rolarPara('secaoContatos')" class="headerContatos"
+            onclick="rolarPara('secaoContatos', 'center')" class="headerContatos"
             >
                 Contatos
             </a>
             <a 
-            onclick="rolarPara('secaoProjetos')" class="headerProjetos"
+            onclick="rolarPara('secaoProjetos', 'start')" class="headerProjetos"
             >
                 Projetos
             </a>
         </nav>
        
     </header>
-
     <main>
-        <div class="main-text">
-            <article>
-                <h2>Olá, me chamo Daniel Luiz marques E sou um Futuro Desenvolverdor Full Stack!</h2>
-               
-            </article>
+        <div class="conteudo">
+            <div> 
+                <div class="main-text">
+                    <article>
+                        <h2>Olá, Bem Vindo ao meu Portifolio!<br> Me chamo Daniel Luiz e sou um futuro desenvolvedor Full Stack!</h2>
+                    </article>
+                </div>
             
+                <section 
+                id="secaoTecnologias"      
+                class="secaoTecnologias">
+                    <h2><strong>Tecnologias</strong></h2>
+                    <div class="container-icons">
+                        <div class="box-tecnologias">
+                            <i class="fab fa-html5" id="icones-tecnologias">
+                            </i>
+                            
+                        </div>
+                        <div class="box-tecnologias">
+                            <i class="fa-brands fa-css3-alt" id="icones-tecnologias">
+                            </i>
+                        </div>
+                        <div class="box-tecnologias">
+                            <i class="fa-brands fa-js" id="icones-tecnologias">
+                            </i>
+                        </div>
+                    </div>
+                    
+                </section>
+            </div>  
             <figure>
-                <img 
-                src="./IMG/Imagem-Daniel.png" alt="Imagem de Daniel Luiz">
-                
+                <img src="./IMG/Imagem-Daniel.png" alt="Imagem de Daniel Luiz">
+                <figcaption>
+                    <a href="https://github.com/DanTzLz" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="https://www.instagram.com/dantz.z/?hl=pt-br" target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/daniel-luiz-marques-4330591b5/"  target="_blank target="_blank>
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+        
+                </figcaption>
             </figure>
+
         </div>
-
-        <aside>
-            <div class="container-cards">
-            </div>
-        </aside>
-
-        <section 
-        id="secaoTecnologias"      class="secaoTecnologias">
-            <strong>Tecnologias</strong>
-        </section>
-
         <section 
         id="secaoContatos" class="secaoContatos">
             <h2>Contatos</h2>
@@ -86,8 +102,15 @@
         id="secaoProjetos" 
         class="secaoProjetos">
             <h2>Projetos</h2>
+            <div class="container-projetos">
+                <div 
+                class="box-projetos" id="b-proj-1"></div>
+                <div
+                 class="box-projetos" id="b-proj-2"></div>
+                <div 
+                class="box-projetos" id="b-proj-3"></div>
+            </div>
         </section>
-
     </main>
 
     <footer>

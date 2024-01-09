@@ -1,0 +1,100 @@
+@media(max-width: 1200px){
+
+    header{
+        height: 3em;
+    }
+
+    header h1{
+        font-size: 24pt;
+    }
+
+    body{
+        font-size: 16pt;
+    }
+
+    .main-text{
+        width: 550px;
+        height: 12em;
+
+        margin-top: 3em;
+    }
+
+
+    article h2{
+        font-size: 20pt;
+
+
+    }
+    .box-tecnologias{
+        width: 4.3em;
+        height: 4.3em;
+    }
+
+    #icones-tecnologias{
+        font-size: 3em;
+    }
+
+    img{
+        margin: 5.2em 1em 0px ;
+
+        width: 350px;
+        height: 350px;
+    }
+
+    figure figcaption{
+        margin: 0;
+    }
+
+    .container-projetos{
+        gap: 1.8em;
+        margin-left: 1em;
+    }
+
+    .box-projetos{
+        height: 420px;
+        width: 300px;
+    }
+}
+
+
+
+
+@media (max-width: 980px){
+
+    .conteudo{
+        display: grid;
+
+        align-items: center;
+        justify-content: center;
+    }
+
+    img{
+        margin-top: 0;
+        margin-left: 5.5em;
+    }
+
+    .container-projetos{
+        width: 660px;
+        
+
+
+        gap: 10px;
+
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+
+
+    .box-projetos{
+        width: 280px;
+        height: 350px;
+
+    }
+}
+
+@media (max-width: 800px){
+    .box-projetos{
+        width: 220px;
+        height: 320px;
+    }
+}

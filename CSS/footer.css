@@ -11,4 +11,7 @@ footer{
 
 span{
     font-size: 7pt;
+
+    display: flex;
 }
+

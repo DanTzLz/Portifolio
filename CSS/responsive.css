@@ -98,3 +98,89 @@
         height: 320px;
     }
 }
+
+@media (max-width: 800px){
+    .box-projetos{
+        width: 120px;
+        height: 220px;
+    }
+
+    header{
+        display: flex;
+        align-items: center;
+
+        flex-direction: column;
+    }
+
+    header h1{
+        font-size: 16pt;
+        
+    }
+
+
+
+    article{
+        width: 440px;
+        height: 100px;
+
+        margin-bottom: 0;
+    }
+
+    article h2{
+        font-size: 12pt;
+    
+    }
+
+    .conteudo{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .main-text{
+        height: 200px;
+    }
+
+    .main-text h2{
+        margin: 10px;
+        margin-left: 50px;
+    }
+
+
+    .box-tecnologias{
+        width: 3em;
+        height: 3em;
+
+    }
+
+    #icones-tecnologias{
+        font-size: 2em;
+    
+    }
+
+    .secaoContatos{
+        font-size: 14pt;
+
+        margin-left: 0px;
+    }
+
+    .secaoProjetos{
+        font-size: 14pt;
+
+        margin-left: 0px;
+    }
+
+    .secaoTecnologias h2{
+        font-size: 24pt;
+        
+    }
+
+    figure img{
+        margin-left: 3em;
+    }
+
+    figure figcaption{
+
+        margin-right: 2em;
+
+    }
+}

@@ -1,15 +1,13 @@
 main{
-    color: #fff;
+    color: #FFD4AE;
 
     display: flex;
     flex-direction: column;
     
-    margin: 0 0 0 20px;
 }
 
 div{
     width: 100%;
-
 }
 
 
@@ -22,7 +20,7 @@ article{
 
     margin: 2.5em 0px 3em 20px; 
     border-radius: 20px;
-    background-color: #6560D9;
+    background-color: #34211A;
     
 }
 
@@ -34,7 +32,13 @@ article h2{
 
 
 .conteudo{
+    width: 100%;
+
     display: flex;
+}
+
+.main-text{
+    margin-right: 0;
 }
 
 
@@ -42,7 +46,7 @@ article h2{
 
 
 .secaoTecnologias{
-    color:#6560D9;
+    color:#FFD4AE;
     
     font-size: xx-large;
     margin: 0em 0px 1em 20px;
@@ -62,7 +66,7 @@ article h2{
     
     
     border-radius: 20px;
-    background-color: #6560D9;
+    background-color: #34211A;
 
     display: flex;
     align-items: center;
@@ -73,11 +77,10 @@ article h2{
 
 .box-tecnologias:hover{
     transform: scale(1.03);
-    color: #fff;
 
 }
 #icones-tecnologias{
-    color: #fff;
+    color: #FFD4AE;
     font-size: 4em;
 
 
@@ -85,6 +88,10 @@ article h2{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    transition: ease-in-out .2s;
+}
+#icones-tecnologias:hover{
+    color: #fff;
 }
 
 
@@ -95,10 +102,10 @@ article h2{
 /*=--=-=-=-=-=-=-=-=-=-=-=-= CONTATOS =--=-=-=-=-=-=-=-=-=-=-=-=*/
 
 .secaoContatos{
-    color:#6560D9;
+    color:#FFD4AE;
 
     font-size: x-large;
-    margin: 2em 0px 50px 20px;
+    margin: 0em 0px 50px 20px;
 }
 
 .secaoContatos h2{
@@ -124,27 +131,28 @@ article h2{
 }
 
 .secaoProjetos{
-    color:#6560D9;
+    color:#FFD4AE;
 
 
     font-size: x-large;
-    margin: 0em 0px 0em 20px;
+    margin: 0em 0px 2em 20px;
 }
 
 .container-projetos{
+    width: 100%;
+
     display: flex;
     gap: 1.5em;
     border-radius: 30px;
     margin-top: 20px;
 }
 
-.box-projetos{
-    height: 520px;
-    width: 400px;
-    background-color: #6560D9;
+.container-projetos .box-projetos{
+    height: 400px;
+    width: 300px;
+    background-color: #34211A;
 
     border-radius: 30px;
-    flex-shrink: 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -173,12 +181,12 @@ figcaption i{
     display: flex;
 }
 
-img{
-    width: 425px;
-    height: 425px;
+figure img{
+    width: 325px;
+    height: 325px;
 
-    margin-top: 9em;
-    margin-right: 5em;
+    margin-top: 8.3em;
+    margin-right: 2em;
 
     border-radius: 50px;
     right: 100em;
@@ -188,8 +196,8 @@ img{
 
 
 img:hover{
-    box-shadow: 0 0 8px;
-    color: #6560D9;
+    box-shadow: 0 0 20px;
+    color: #34211A;
 }
 
 
